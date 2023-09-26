@@ -1,0 +1,41 @@
+
+header{
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background: var(--color-bg) !important;
+    padding: 45px 0px;
+    transition: 0.2s;
+    a{
+        color: var(--color-text);
+        margin-right: 50px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    a:hover{
+        color: white;
+       
+    }
+    .button-contact{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 15px 35px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        background-color: var(--color-buton);
+    }
+    .button-contact:hover{
+        background-color: white;
+        color: var(--color-buton);
+    }
+   
+}
+.bg{
+    background-color: var(--color-bg) !important;
+}
+.nav-link {
+    color: white !important;
+}
